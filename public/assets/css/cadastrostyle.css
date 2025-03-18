@@ -1,0 +1,261 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url(../image/bgamazonialogin.png);
+  background-size: 100% 100%; /* Estica a imagem para preencher toda a tela */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.logoamazonia{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+/*DIV DOS CADASTROS DE CADA CRUD*/
+.login-card-user {
+  top: 380px;
+  bottom: auto;  
+  margin-left:65%;
+  transform: translate(-45%, -40%);
+  position: absolute;
+  height: 770px;
+  width: 40%;
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.3px);
+  -webkit-backdrop-filter: blur(5.3px);
+  border: 1px solid rgba(207, 207, 207, 0.28);
+  }
+
+
+
+  .login-card-pneu {
+    top: 380px;
+    bottom: auto;  
+    margin-left:65%;
+    transform: translate(-45%, -65%);
+    position: absolute;
+    height: 450px;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(207, 207, 207, 0.28);
+  
+  
+    }
+
+
+
+
+    
+  .login-card-med {
+    top: 380px;
+    bottom: auto;  
+    margin-left:65%;
+    transform: translate(-45%, -40%);
+    position: absolute;
+    height: 680px;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(207, 207, 207, 0.28);
+  
+  
+    }
+
+
+
+
+    .login-card-city {
+      top: 380px;
+      bottom: auto;  
+      margin-left:65%;
+      transform: translate(-45%, -65%);
+      position: absolute;
+      height: 350px;
+      width: 40%;
+      background: rgba(255, 255, 255, 0.23);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5.3px);
+      -webkit-backdrop-filter: blur(5.3px);
+      border: 1px solid rgba(207, 207, 207, 0.28);
+    
+    
+      }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .card-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-header h1 {
+    font-size: 2em;
+    color: #333;
+    text-shadow: 1px 1px #ddd;
+  }
+  
+  .form-group {
+    margin-bottom: 1%;
+    margin-left:2%;
+    
+  }
+  
+  .form-group label {
+    display: flex;
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="url"],
+select {
+    box-sizing: border-box;
+    padding: 3px;
+    margin-left: 3%;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 1.2em;
+    color: #555;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin-top: -6px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="url"]:focus,
+select:focus {
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+  /* remove as setinhas do input type number*/
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 10%;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0069d9;
+    transform: translateY(-7px);
+    filter: drop-shadow(17px 17px 11px rgba(0, 0, 0, 0.7));
+    transition: transform 0.3s ease;
+  }
+  
+  .login-button {
+    background-color: #077510e7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 10px;
+    width: 90%;
+    transition: background-color 0.3s ease;
+    transition: 0.25s;
+    margin-left: 16px;
+    margin-top: 20px;
+  }
+  
+  .login-button:hover {
+    background-color: #379e40e7;
+    -webkit-box-shadow: 0px 0px 10px 0px #379e40e7;
+    -moz-box-shadow: 0px 0px 10px 0px #379e40e7;
+    box-shadow: 0px 0px 10px 0px #379e40e7;
+    transform: scale(99%);
+    transition: transform 0.5s ease;
+  }
+  /* logo da amazonia canto esquerdo*/
+
+
+  .logoamazonia{
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 35%;
+  }
+
+/*escrita sem login ir para o cadastrar*/
+  .cadastrolinkdiv{
+    margin-left: 20px;
+  }
+
+
+
+  /*mensagem de adicionado*/
+
+
+  .echoadd{
+    color: #ffffffe7;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    font-size: 30px;
+    font-weight: 100;
+    font-weight: bolder;
+    width: 45%;
+    margin-left: 40px;
+    margin-top: -2%;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.2px;
+  }
+
+  

@@ -1,0 +1,10 @@
+{
+    "name": "mathe/amazonia-pneus-tcc",
+    "autoload": {
+        "psr-4": {
+            "Mathe\\AmazoniaPneusTcc\\": "src/",
+            "app\\":"app"
+        }
+    },
+    "require": {}
+}
